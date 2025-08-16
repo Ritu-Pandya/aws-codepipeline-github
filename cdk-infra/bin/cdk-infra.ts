@@ -7,7 +7,7 @@ new CdkInfraStack(app, 'CdkInfraStack', {
   // GitHub configuration
   githubOwner: 'Ritu-Pandya', // Replace with your GitHub username
   githubRepo: 'Aws-codepipeline-github', // Replace with your GitHub repository name
-  githubBranch: 'main', // Replace with your branch name (usually 'main' or 'master')
+  githubBranch: 'master', // Replace with your branch name (usually 'main' or 'master')
   githubTokenSecretName: 'mygithub-token-new', // Name of the secret in AWS Secrets Manager containing your GitHub token
   // Environment configuration
   env: { 
